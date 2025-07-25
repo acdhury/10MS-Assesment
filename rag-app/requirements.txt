@@ -1,0 +1,7 @@
+flask
+ollama
+langdetect
+langchain
+langchain_community
+faiss-cpu
+sentence-transformers
