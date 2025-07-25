@@ -2,6 +2,14 @@
 
 ## Implementation Details
 
+### Tools and Libraries
+- tesseract-ocr for extracting Bangla texts from the PDF
+- Ollama for running open source versions of models locally
+- langchain & langchain_community for chunk creation and other functionalities
+- FAISS and faiss-cpu for serverless vector database and internal distance function calculation
+- sentence-transformer and Huggingface for using various embedding models. Among those used, Huggingface "BAAI/bge-m3" was the most efficient
+- Finally, Flask for creating api endpoint and creating a web app that allows users to use the RAG model through a user interface
+
 ### Text Extraction
 - Used tesseract-ocr for extracting Bangla texts from the given PDF using the OCR method
 - Compiled all the text in a text file 
