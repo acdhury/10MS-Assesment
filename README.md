@@ -59,6 +59,11 @@
 
 
 ## How to Use
+Install all the dependencies for the project
+```bash
+pip install -r requirements.txt
+```
+
 1. Run cells sequentially in the notebook
 2. For queries:
    ```python
@@ -74,7 +79,7 @@
   cd rag-app
 ```
 
-Install the additional dependencies
+Install the additional dependencies for the web application
 ```bash
 pip install -r requirements.txt
 ```
