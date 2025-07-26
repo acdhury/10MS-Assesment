@@ -68,8 +68,8 @@ pip install -r requirements.txt
 2. For queries:
    ```python
    query = "Your Bangla query here"
-   similar_docs = vector_db.similarity_search_with_relevance_scores(query)
-   print(similar_docs)
+   response = generate_response(query, vector_db, memory)
+   print(response)
 
    ```
 
