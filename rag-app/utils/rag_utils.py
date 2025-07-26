@@ -16,8 +16,8 @@ def initialize_rag_system():
     
     # Text splitting
     bangla_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=80,
-        chunk_overlap=10,
+        chunk_size=200,
+        chunk_overlap=30,
         separators=["\n\n", "\n", "।", "?", "!", ",", " ", ""]
     )
     chunks = bangla_splitter.split_text(processed_text)
